@@ -4,7 +4,7 @@ read -p "Enter the username" username
 read -sp "Enter the password" passwd
 echo "Please re-enter password"
 read -sp "Enter password again: " passwd1
-echo
+echo #this echo is move cursor to new line
 echo "Username is : $username"
 if [ $passwd = $passwd1 ]
 then

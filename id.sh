@@ -1,6 +1,7 @@
 #!/bin/bash
 #This is get input from user sectertely
 #read -sp to read input secretely
+#here we are working on normal username and password
 read -p "Enter the username" username
 read -sp "Enter the password" passwd1
 echo #hello

@@ -2,6 +2,7 @@
 #this is get input from user sectertely
 read -p "Enter the username" username
 read -sp "Enter the password" passwd
+echo
 echo "Please re-enter password"
 read -sp "Enter password again: " passwd1
 echo

@@ -1,4 +1,5 @@
 #!/bin/bash
+#this is get input from user sectertely
 read -p "Enter the username" username
 read -sp "Enter the password" passwd
 echo "Please re-enter password"
